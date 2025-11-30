@@ -14,7 +14,7 @@ import { connectDB } from "../lib/db.js";
 const app = express();
 
 // CORS: allow frontend origin via env var on Vercel
-const CLIENT_ORIGIN = process.env.CLIENT_ORIGIN || "http://localhost:5173";
+const CLIENT_ORIGIN = https://streamify-video-calling-cyan.vercel.app/;
 
 app.use(
   cors({
